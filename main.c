@@ -1,5 +1,7 @@
 #include <stdio.h>
 
+extern int x;
+
 int main(void) {
-    fputs("Hello, world!\n", stderr);
+    fprintf(stderr, "%d\n", x);
 }
