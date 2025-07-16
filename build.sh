@@ -1,4 +1,7 @@
 #!/bin/sh
+
+set -xe
+
 cc -S -o mylib.s mylib.c
 cc -c -o mylib.o mylib.s
 

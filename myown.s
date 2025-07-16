@@ -4,8 +4,8 @@
 _main:
 	stp	x29, x30, [sp, -16]!
 	mov	x29, sp
-	adrp	x0, _stderr@gotpage
-	ldr	x0, [x0, _stderr@gotpageoff]
+	adrp	x0, ___stderrp@gotpage
+	ldr	x0, [x0, ___stderrp@gotpageoff]
 	ldr	x0, [x0]
 	adrp	x1, _x@gotpage
 	ldr	x1, [x1, _x@gotpageoff]

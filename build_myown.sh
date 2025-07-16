@@ -1,4 +1,7 @@
 #!/bin/sh
+
+set -xe
+
 cc -o myown myown.s mylib.o
 
 echo "----------------------------------------"
