@@ -17,7 +17,7 @@ _main:
 	str	x1, [x2]
 	adrp	x1, _message@page
 	add	x1, x1, _message@pageoff
-	bl	_$fprintf
+	bl	_fprintf
 	mov	x0, #16
 	add	sp, sp, x0
 	mov	w0, #0
