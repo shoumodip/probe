@@ -21,3 +21,7 @@ jobs:
 
       - name: Run
         run: ./build.sh
+
+      - name: Run macOS only
+        if: runner.os == 'macOS'
+        run: ./build_myown.sh

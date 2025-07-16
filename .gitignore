@@ -1,4 +1,6 @@
 /main
 /main.s
+/myown
+/myown.s
 /mylib.s
 /mylib.o
